@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555; /* Fondo ligeramente más claro en hover */
+    background-color: #555; 
     color: #fff;
 }
 
@@ -65,8 +65,8 @@ section {
 }
 
 section:hover {
-    transform: scale(1.02); /* Agranda ligeramente la sección en hover */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transform: scale(1.02); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
 }
 
 section h2 {
@@ -161,4 +161,41 @@ section p, section ul {
 ul li {
     margin: 5px 0;
     line-height: 1.5;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de habilidad */
+.skill-image {
+    max-width: 80px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 0;
+    color: #555;
+    font-size: 18px;
 }
