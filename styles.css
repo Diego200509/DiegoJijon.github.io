@@ -199,3 +199,40 @@ h4 {
     color: #555;
     font-size: 18px;
 }
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.project-image {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.project a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
