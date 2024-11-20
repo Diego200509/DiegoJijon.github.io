@@ -92,7 +92,6 @@ ul li {
     border-radius: 4px;
 }
 
-/* Redes sociales */
 
 .social-icon {
     display: flex;
@@ -120,7 +119,7 @@ ul li {
 .social-links a {
     display: inline-block;
     margin: 5px 0;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     padding: 8px 12px;
     border: 1px solid #333;
@@ -236,7 +235,6 @@ ul li {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagen de habilidad */
 .skill-image {
     max-width: 80px;
     width: 100%;
